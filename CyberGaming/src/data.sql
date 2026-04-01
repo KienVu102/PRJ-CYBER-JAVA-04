@@ -98,8 +98,8 @@ CREATE TABLE IF NOT EXISTS transactions (
 
 -- Tài khoản demo
 INSERT INTO users (full_name, username, password, phone, role, balance) VALUES
-('Administrator', 'admin', '10176e7b7b24d317acfcf8d2064cfd2f24e154f7b5a96603077d5ef813d6a6b6', '0900000001', 'ADMIN', 0.00),
-('Nhân Viên 1', 'staff1', '10176e7b7b24d317acfcf8d2064cfd2f24e154f7b5a96603077d5ef813d6a6b6', '0900000002', 'STAFF', 0.00);-- Password: admin=admin, staff1=staff123, customer1=password123
+('Administrator', 'admin', '8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918', '0900000001', 'ADMIN', 0.00),
+('Nhân Viên 1', 'staff1', '10176e7b7b24d317acfcf8d2064cfd2f24e154f7b5a96603077d5ef813d6a6b6', '0900000002', 'STAFF', 0.00);-- Password: admin=admin, staff1=staff123
 
 -- Khu vực
 INSERT INTO categories (name, description) VALUES
